@@ -16,7 +16,7 @@ print("Основные статистические характеристик�
 print(df.describe())
 print("Количество пропусков по столбцам:")
 print(df.isnull().sum())
-print("Количество уникальных значений по столбцам:")
+print("Количестeво уникальных значений по столбцам:")
 print(df.nunique())
 
 num_cols = df.select_dtypes(include="number").columns
